@@ -1,6 +1,6 @@
 # MIT-MATLAB-Open-Courseware
 
-The website for all the courseware: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-094-introduction-to-matlab-january-iap-2010/index.htm
+The website for all the courseware: [!MIT MATLAB OpenCourseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-094-introduction-to-matlab-january-iap-2010/index.htm)
 
 This file has 5 parts, names "IAPMALTAB\day_".
 
