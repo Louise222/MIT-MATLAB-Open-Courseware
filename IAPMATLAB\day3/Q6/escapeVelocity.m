@@ -1,8 +1,8 @@
 function n=escapeVelocity(Z0,c,N)
-Z=Z0; R=abs(Z);
+R=abs(Z0);
 n=1;
-while all(R<2,n<=N)
-    Z=Z.^2+c;
-    R=abs(Z);
+while R<2 && n<=N
+    Z0=Z0^2+c;
+    R=abs(Z0);
     n=n+1;
 end

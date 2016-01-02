@@ -1,6 +1,11 @@
 function M=julia(zMax,c,N)
-x=linspace(-zMax,zMax,500);
-y=linspace(-zMax,zMax,500);
-[X,Y]=meshgrid(x,y);
+temp=linspace(-zMax,zMax,500);
+[X,Y]=meshgrid(temp,temp);
 Z=X+Y*1i;
-M=escapeVelocity(Z,c,N);
+M=ones(size(Z))*N;
+for u=1:500
+    for v=1:500
+    M(u,v)=escapeVelocity(Z(u,v),c,N);
+    end
+end
+end
